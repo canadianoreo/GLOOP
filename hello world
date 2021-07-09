@@ -1,1 +1,6 @@
-hello world
+import tweepy
+auth = tweepy.OAuthHandler("no", "no") 
+auth.set_access_token("no", "no") 
+api = tweepy.API(auth)
+api.update_status("@_Nevermiind_ the gloop commences", 1365925555951063042)
+print ("1 pump chump is done loading ur mom!")
